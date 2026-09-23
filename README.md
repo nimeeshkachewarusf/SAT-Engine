@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Security Alert Triage Engine
 
 A small Java command-line application that processes simulated cybersecurity alerts, removes duplicates, calculates deterministic risk scores, filters alerts, and produces a prioritized incident queue.
