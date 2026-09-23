@@ -33,36 +33,7 @@ Maven
 Jackson
 JUnit 5
 Git / GitHub
-Project Structure
-security-alert-triage/
-├── pom.xml
-├── README.md
-└── src/
-    ├── main/
-    │   ├── java/
-    │   │   └── com/
-    │   │       └── securitytriage/
-    │   │           ├── Main.java
-    │   │           ├── io/
-    │   │           │   └── AlertJsonReader.java
-    │   │           ├── model/
-    │   │           │   ├── SecurityAlert.java
-    │   │           │   └── Severity.java
-    │   │           └── service/
-    │   │               ├── AlertDeduplicator.java
-    │   │               ├── AlertService.java
-    │   │               └── RiskScorer.java
-    │   └── resources/
-    │       └── alerts.json
-    └── test/
-        └── java/
-            └── com/
-                └── securitytriage/
-                    ├── AlertDeduplicatorTest.java
-                    ├── AlertServiceTest.java
-                    └── RiskScorerTest.java
-Architecture
-SecurityAlert
+
 
 Represents one simulated security alert. It stores fields such as alert type, severity, source IP, username, failed login attempts, account privilege status, malicious-IP status, description, and timestamp.
 
